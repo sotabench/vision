@@ -110,7 +110,7 @@ setup_pip_pytorch_version() {
     # TODO: Maybe add staging too
     pip_install "torch==$PYTORCH_VERSION$CUDA_SUFFIX" \
       -f https://download.pytorch.org/whl/torch_stable.html \
-      -f https://download.pytorch.org/whl/torch_nightly.html
+      -f https://download.pytorch.org/whl/nightly/torch_nightly.html
   fi
 }
 
