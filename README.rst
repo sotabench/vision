@@ -21,17 +21,20 @@ Installation
 
 TorchVision requires PyTorch 1.1 or newer.
 
+
 Anaconda:
 
 .. code:: bash
 
     conda install torchvision -c pytorch
 
+
 pip:
 
 .. code:: bash
 
     pip install torchvision
+
 
 From source:
 
